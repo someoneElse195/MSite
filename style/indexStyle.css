@@ -20,7 +20,7 @@ body {
     position: fixed;
     left: 30%;
     top: 2%;
-    height: 11%;
+    height: max-content;
     width: 40%;
     text-align: center;
     font-size: larger;
