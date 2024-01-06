@@ -3,26 +3,54 @@ body {
     
 }
 
-.rpgui-content {
-    left: 12.5%;
+#main {
+    width: auto;
+    height: 100%;
+}
+
+#content {
     top: 15%;
-    width: 75%;
+    width: 76.6%;
+    height: 55.5%;
+    left:12%;
 }
 
 .rpgui-container {
     height: 50%;
     width: 18%;
     color: white;
-    
+    font-size: larger;
 }
 
 #header {
     position: fixed;
-    left: 30%;
+    left: 40.5%;
     top: 2%;
     height: max-content;
-    width: 40%;
+    width: 19%;
     text-align: center;
-    font-size: larger;
+    font-size: large;
+    font-weight: bold;
+}
+
+#about {
+    position: fixed;
+    left: 30.5%;
+    top: 2%;
+    height: max-content;
+    width: 9.5%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+#LINK2 {
+    position: fixed;
+    left: 60%;
+    top: 2%;
+    height: max-content;
+    width: 9.5%;
+    text-align: center;
+    font-size: large;
     font-weight: bold;
 }
