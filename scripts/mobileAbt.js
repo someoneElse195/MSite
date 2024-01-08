@@ -5,22 +5,22 @@ function mobileCheck() {
     })(navigator.userAgent||navigator.vendor||window.opera);
     
     if(check == true) {
-        changeCSS("style/aboutMobStyle.css", 1);
+        changeCSS("style/aboutMobStyle.css");
     } else {
-        changeCSS("style/aboutStyle.css", 1);
+        changeCSS("style/aboutStyle.css");
     }
 };
 
 
-function changeCSS(cssFile, cssLinkIndex) {
+function changeCSS(cssFile) {
 
-    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+    var oldlink = document.getElementsByTagName('link')[0];
 
     var newlink = document.createElement("link");
     newlink.setAttribute("rel", "stylesheet");
     newlink.setAttribute("type", "text/css");
     newlink.setAttribute("href", cssFile);
 
-    document.getElementsByTagName("head").item(cssLinkIndex).replaceChild(newlink, oldlink);
+    document.getElementsByTagName("head")[0].replaceChild(newlink, oldlink);
 }
 
