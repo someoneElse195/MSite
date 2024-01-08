@@ -5,9 +5,9 @@ function mobileCheck() {
     })(navigator.userAgent||navigator.vendor||window.opera);
     
     if(check == true) {
-        changeCSS("aboutStyle.css", 0);
+        changeCSS("style/aboutMobStyle.css", 1);
     } else {
-        changeCSS("aboutMobStyle.css", 0);
+        changeCSS("style/aboutStyle.css", 1);
     }
 };
 
