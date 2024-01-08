@@ -1,6 +1,5 @@
 body {
     background-color: grey;
-    
 }
 
 #main {
@@ -11,12 +10,12 @@ body {
 #content {
     top: 15%;
     width: 76.6%;
-    height: 55.5%;
+    height: 80.5%;
     left:12%;
 }
 
 .rpgui-container {
-    height: 50%;
+    height: 75%;
     width: 18%;
     color: white;
     font-size: larger;
@@ -53,4 +52,19 @@ body {
     text-align: center;
     font-size: large;
     font-weight: bold;
+}    
+
+#names {
+    height: 7.2%;
+    width: 16%;
+    font-size: medium;
+    text-align: center;
+}
+
+#stats {
+    height: 7.2%;
+    width: 16%;
+    top: 5%;
+    font-size: medium;
+    text-align: center;
 }
